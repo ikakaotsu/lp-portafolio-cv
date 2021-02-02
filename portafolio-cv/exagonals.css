@@ -42,7 +42,6 @@
 
 .vertical-rectangle span {
   font-size: 36px;
-  /* 	z-index: 999; */
 }
 
 .slanted-rectangle-1 {
@@ -50,7 +49,6 @@
   position: absolute;
   width: 110px; /* Ancho hexagonos */
   height: 350px;
-  /* 	top: -85px; */
 
   overflow: hidden;
   visibility: hidden;
