@@ -2,8 +2,10 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   margin: 2rem auto;
-  width: 350px; /* Separar Exagonos */
-  /* border: 1px solid black; */
+  width: 100px;
+  min-height: 1vh;
+  z-index: 990;
+  position: relative;
 }
 
 /* making the honeycomb */
@@ -47,9 +49,8 @@
 .slanted-rectangle-1 {
   background-color: rgba(150, 119, 208, 0.7);
   position: absolute;
-  width: 110px; /* Ancho hexagonos */
-  height: 350px;
-
+  width: 80px;
+  height: 150px;
   overflow: hidden;
   visibility: hidden;
   -webkit-transform: rotate(120deg);
