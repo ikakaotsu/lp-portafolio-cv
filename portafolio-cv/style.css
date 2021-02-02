@@ -39,6 +39,12 @@ body {
   color: var(--text-color);
 }
 
+@media screen and (min-width: 360px) {
+  body {
+    margin: auto;
+  }
+}
+
 a {
   color: var(--link-color);
   transition: all 0.5s ease-out;
